@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Hunterfosho
 - 👀 I’m interested in CyberSecurity
 - 🌱 I’m currently learning how to protect humans from other humans
-- 💞️ I’m looking to collaborate on anything CyberSecurity, PCIP-ISA, and Data Privacy
+- 💞️ I’m looking to collaborate on anything CyberSecurity, PCI-ISA, and Data Privacy
 - 📫 How to reach me aisecurityeast@proton.me
 
 <!---
