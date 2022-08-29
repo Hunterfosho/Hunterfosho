@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Hunterfosho - Master of the Custodial Arts
-- 👀 I’m interested in *Information Security* - *Ethical Hacking* - *Threat Hunting* - "Red Team"
+- 👀 I’m interested in *Information Security* - *Ethical Hacking* - *Threat Hunting* - *Red Teaming*
 - 🌱 I’m currently learning how to protect humans from other humans
 - 💞️ I’m looking to create a repository of technical material and documents we can use to stregthen the skillset of the following departments:
   - The senior management
