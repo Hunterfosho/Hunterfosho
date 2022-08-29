@@ -49,22 +49,23 @@ If you look back at major security failures over the past decade, many shared a 
 >
 > ### Accreditation and authorzation are the same
 
-   # Seperation of Duties
-   > ### Seperation of Duties
-   
+# Seperation of Duties
+ > ### Seperation of Duties   
+
 - ### No individual should possess two permissions that, in combonation, allow them to perform a highly sensitive action
     - Account reviews and audits should reduce the risk of privilege creep
     - Information security professionals are often called on to audit separation of duties, and IT staff are often the target
 - ### Two-Person Control
   - Requires the authorization of two separate individuals to carry out a sensitive action; also know as dual control
   
- # Selecting Security Controls
+# Selecting Security Controls
 > ### Selecting Security Controls
+
 - Security Controls
     - Procedures and mechanisms that an organization puts in place to manage security risks
 - Defense in Depth
     -  Multiple overlapping controls for one objective
- > ### Security Control Groups
+> ### Security Control Groups
   - Preventive
     - Stop a security issue from occuring in the first place
 -   Detective
@@ -78,13 +79,54 @@ If you look back at major security failures over the past decade, many shared a 
 - Compensating
     - Fill a known gap in a security environment
 
- > ### Technical Controls
- - Techinical Controls
-     -  Use technology to achieve security control objectives
+> ### Technical Controls
+- Techinical Controls
+    -  Use technology to achieve security control objectives
+    -  Are implemented by technology
 > ### Operational Controls
 - Operational Controls
     - Use human-driven processes to manage technology in a secure manner
-    
-> ### Techincal controls are implemented by technology 
-> 
-> ### Operational controls are implemented by people
+    - Are implemented by people
+
+> #### Management Controls
+- ### Management Controls
+  - Improve the security of the risk maangement process it self 
+
+# Privacy by Design
+> ### Privacy by Design
+- Privacy by Design
+  - Seek to incorporate strong privacy practices into the design and implementation of technology systems
+  - Not bolt on privacy controls for systems already in place  
+  - Better privacy
+  - reduced reworks
+- Privacy Design Principles
+  - Proactive, Not Reactive; Preventive, Not Remedial
+    - Systems should be designed to prevent privacy risk from occuring in the first place
+  - Privacy by The Default Setting
+    - Sytems should should protect the privacy of idividuals, even if the individuals don't take direct action
+  - Privacy Embedded into Design
+    - Privacy should not be a bolt on after thought, privacy is a core requirement of all systems
+  - Full Functionaliity; Positive Sum, Not Zero Sum
+    - Privacy should not be treated with trade offs with the business, security or other objectives
+  - End to End Security
+    - Full lifecycle, security practices should persist throughout the entire information lifecycle 
+  - Visibility and Transparency; Keep it Open
+    - The component parts of systems preserving privacy by design should be open for inspection by users and providers alike.
+  - Respect for user privacy: keep it user centric. 
+    - Privacy is about protecting personal information and personal information belongs to individual people. 
+  
+# Secure Defaults
+> ### Secure Defaults
+- Secure Defaults
+    - The secure default principle simply says that the system we design should default to a secure mode if we don't do anything else
+- KISS method- Keep it simple; stupid
+    - The princple states that when you are designing potentially complex system, we should always err on the side of simplicity
+- Zero Trust Model
+    - ztna applies the long standing principle of least privilege to network access.  
+    - ztna changes the way we think about trust in our past architecture
+    - ztna states that no use or device should be granted access to resources based solely upon their location on the network
+- Trust but Verify
+  - trust but verify is a bedrock practice of security professionals. Yes, we want to be able to trust all of our coworkers, business partners, customers, and outsiders, but that's simply not a reasonable security practice. Malicious insiders are a real risk as are other bad actors, and we need to be sure to verify that security rules are indeed being followed. This is true whether you're enforcing internal security policies, verifying that a partner is carrying out their own security obligations, or checking the work of your own team. Trust that they did the work well, but verify that it is implemented correctly.
+  
+  
+  
