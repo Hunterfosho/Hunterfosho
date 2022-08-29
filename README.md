@@ -1,13 +1,13 @@
 - 👋 Hi, I’m @Hunterfosho - Master of the Custodial Arts
 - 👀 I’m interested in *Information Security* - *Ethical Hacking* - *Threat Hunting* - "Red Team"
 - 🌱 I’m currently learning how to protect humans from other humans
-- 💞️ I’m looking to create a repository we can use to stregthen the skillset of the members of 
-  - The senior management staff
-  - Information security staff
-  - Compliance staff
-  - Audit staff
-  - Information technology staff 
-departments of the organization
+- 💞️ I’m looking to create a repository of technical material and documents we can use to stregthen the skillset of the following departments:
+  - The senior management
+  - Information security
+  - Software DevOps
+  - Compliance
+  - Audit
+  - Information technology
 - 📫 How to reach me aisecurityeast@proton.me
 - [Join Me Over At Try Hack Me](https://tryhackme.com/dashboard)
 - [Join Me Over On Discord](https://discord.com/channels/@me)
