@@ -1,6 +1,4 @@
-# Secure Design Principles
 > ### Secure Design Principles
-
 - Object/Subject Model
     - Subject is someone who is requesting a file from an object
     - Example: A process might request access to a memory location
@@ -24,7 +22,6 @@ If you look back at major security failures over the past decade, many shared a 
 ```
 # Security Models
 > ### Security Models
-
 - Bell-LaPadula Model - Enforces confidentiality 
     -  Simple Security Rule - No "read up"
     -  *-Property - No "write down
@@ -44,23 +41,17 @@ If you look back at major security failures over the past decade, many shared a 
     -  Interm Authorzation to Operate (IATO)
     -  Interim Authorzation to Test (IATT)
     -  Denial of Authorzation to Operate (DATO)
-
 > ### Certfication and accreditation are different
->
 > ### Accreditation and authorzation are the same
-
 # Seperation of Duties
  > ### Seperation of Duties   
-
 - ### No individual should possess two permissions that, in combonation, allow them to perform a highly sensitive action
     - Account reviews and audits should reduce the risk of privilege creep
     - Information security professionals are often called on to audit separation of duties, and IT staff are often the target
 - ### Two-Person Control
   - Requires the authorization of two separate individuals to carry out a sensitive action; also know as dual control
-  
 # Selecting Security Controls
 > ### Selecting Security Controls
-
 - Security Controls
     - Procedures and mechanisms that an organization puts in place to manage security risks
 - Defense in Depth
@@ -78,7 +69,6 @@ If you look back at major security failures over the past decade, many shared a 
     -  Impact the physical world
 - Compensating
     - Fill a known gap in a security environment
-
 > ### Technical Controls
 - Techinical Controls
     -  Use technology to achieve security control objectives
@@ -87,11 +77,9 @@ If you look back at major security failures over the past decade, many shared a 
 - Operational Controls
     - Use human-driven processes to manage technology in a secure manner
     - Are implemented by people
-
 > #### Management Controls
 - ### Management Controls
   - Improve the security of the risk maangement process it self 
-
 # Privacy by Design
 > ### Privacy by Design
 - Privacy by Design
@@ -114,7 +102,6 @@ If you look back at major security failures over the past decade, many shared a 
     - The component parts of systems preserving privacy by design should be open for inspection by users and providers alike.
   - Respect for user privacy: keep it user centric. 
     - Privacy is about protecting personal information and personal information belongs to individual people. 
-  
 # Secure Defaults
 > ### Secure Defaults
 - Secure Defaults
