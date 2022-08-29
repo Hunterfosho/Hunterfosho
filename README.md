@@ -2,12 +2,12 @@
 - 👀 I’m interested in *Information Security* - *Ethical Hacking* - *Threat Hunting* - "Red Team"
 - 🌱 I’m currently learning how to protect humans from other humans
 - 💞️ I’m looking to create a repository we can use to stregthen the skillset of the members of 
-  - the senior management 
-  - information security
-  - compliance
-  - audit
-  - information technology 
-  departments of the organization
+  - The senior management staff
+  - Information security staff
+  - Compliance staff
+  - Audit staff
+  - Information technology staff 
+departments of the organization
 - 📫 How to reach me aisecurityeast@proton.me
 - [Join Me Over At Try Hack Me](https://tryhackme.com/dashboard)
 - [Join Me Over On Discord](https://discord.com/channels/@me)
