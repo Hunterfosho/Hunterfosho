@@ -76,3 +76,50 @@
 # Privilege Escalation Attack
   - Gains administrative access
     - developers should perform input validation on all input received from end-users. This validation should perform strict checking to ensure that the input is in the expected format and of the correct length. Second, operations team should ensure that the operating systems, platforms, and applications installed on servers are current supported versions and have all of the latest security patches. Third, developers and system engineers should work together to enforce the principle of least privilege. Any service accounts that support code execution should have the minimum set of privileges necessary to support the execution of that code. Granting these service accounts excess privileges can increase the access of an attacker who exploits the code. And finally, IT organizations should take advantage of controls designed specifically to prevent privilege escalation attacks. These include data execution prevention and address space layout randomization technologies
+
+# Embedded Systems Security
+- Industrial Control Systems
+  - Industrial control systems, or ICS systems, are the devices and systems that control industrial production and operation. They include systems that monitor electrical, gas, water, and other energy infrastructure and production operations, as well as the systems that control manufacturing plants, industrial facilities, logistics operations, and other critical infrastructure elements.
+- ICS Types
+  - Supervisory control and data acquisition (SCADA)
+  - Distributed control systems (DCS)
+  - Programmable Logic controllers (PLC)
+- SCADA
+  - REmote Monitoring
+  - Remote Telemetry
+  - Reports back to control systems
+- DCS
+  - Focuses on controlling processes
+  - Usues sensors and feedback systems
+  - Has Multiplue points of attack
+- PLC
+  - Handles specialized input and output
+  - Ensures uninterrupted processing
+  - Conntects to a human internface
+  - Modbus protocol - serial interface communications
+
+# Internet of Things
+- IOT is everywhere  
+  - Smart devices are computer controlled and network connected
+    - Smart devices began with a desire for wireless network connectivity
+- Securing embedded systems
+  - Smart devices require regular updates 
+  - Check for weak defaults passwords
+  - Hackers regularly discover vulnerabilities in embedded devices and failing to patch them regularly can result in a serious risk of compromise not only of your smart device but of your entire network. The process for updating different devices varies significantly
+    - Automatic updates
+      - Install without the users knowledge or intervention when published by the manufacturer
+    - Manual Updates
+      - Require that the user check for updates and manually download and intall them when available
+- Firmware Version Control
+  - Updates applied in orderly fashion
+- Security Wrappers
+  - Vet requests for embedded systems
+    - The device is not directly accessible over the network but is instead reached through a wrapper system that monitors input and output for security issues and only passes through vetted requests from network systems. You can think of the wrapper as sort of a mini firewall for the embedded device
+
+# Secure Networking for Smart Devices
+- Smart devices require secure networks
+- Segmenting embedded devices increases network security
+  - Network segmentation is the most important control for embedded devices
+- Application firewalls provide added protection for embeddd devices
+  - They can be vulnerable to SQL injection, buffer overflows, and cross-site scripting attacks. Application firewalls, when placed in front of embedded systems, monitor inbound traffic for signs of malicious activity
+    - Embedded device security controls are effective for mainframes as well
