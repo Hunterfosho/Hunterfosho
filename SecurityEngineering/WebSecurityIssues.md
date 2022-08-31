@@ -122,7 +122,7 @@
   - Network segmentation is the most important control for embedded devices
 - Application firewalls provide added protection for embeddd devices
   - They can be vulnerable to SQL injection, buffer overflows, and cross-site scripting attacks. Application firewalls, when placed in front of embedded systems, monitor inbound traffic for signs of malicious activity
-    - Embedded device security controls are effective for mainframes as well
+- Embedded device security controls are effective for mainframes as well
 
 # Embedded Systems
 - Printers and multifunction devices contain embedded systems.
