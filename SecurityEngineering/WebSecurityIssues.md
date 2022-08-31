@@ -75,7 +75,7 @@
   
 # Privilege Escalation Attack
   - Gains administrative access
-    - developers should perform input validation on all input received from end-users. This validation should perform strict checking to ensure that the input is in the expected format and of the correct length. Second, operations team should ensure that the operating systems, platforms, and applications installed on servers are current supported versions and have all of the latest security patches. Third, developers and system engineers should work together to enforce the principle of least privilege. Any service accounts that support code execution should have the minimum set of privileges necessary to support the execution of that code. Granting these service accounts excess privileges can increase the access of an attacker who exploits the code. And finally, IT organizations should take advantage of controls designed specifically to prevent privilege escalation attacks. These include data execution prevention and address space layout randomization technologies
+    - Developers should perform input validation on all input received from end-users. This validation should perform strict checking to ensure that the input is in the expected format and of the correct length. Second, operations team should ensure that the operating systems, platforms, and applications installed on servers are current supported versions and have all of the latest security patches. Third, developers and system engineers should work together to enforce the principle of least privilege. Any service accounts that support code execution should have the minimum set of privileges necessary to support the execution of that code. Granting these service accounts excess privileges can increase the access of an attacker who exploits the code. And finally, IT organizations should take advantage of controls designed specifically to prevent privilege escalation attacks. These include data execution prevention and address space layout randomization technologies
 
 # Embedded Systems Security
 - Industrial Control Systems
@@ -85,7 +85,7 @@
   - Distributed control systems (DCS)
   - Programmable Logic controllers (PLC)
 - SCADA
-  - REmote Monitoring
+  - Remote Monitoring
   - Remote Telemetry
   - Reports back to control systems
 - DCS
@@ -111,7 +111,7 @@
     - Manual Updates
       - Require that the user check for updates and manually download and intall them when available
 - Firmware Version Control
-  - Updates applied in orderly fashion
+  - Updates applied in orderly an fashion
 - Security Wrappers
   - Vet requests for embedded systems
     - The device is not directly accessible over the network but is instead reached through a wrapper system that monitors input and output for security issues and only passes through vetted requests from network systems. You can think of the wrapper as sort of a mini firewall for the embedded device
@@ -123,3 +123,17 @@
 - Application firewalls provide added protection for embeddd devices
   - They can be vulnerable to SQL injection, buffer overflows, and cross-site scripting attacks. Application firewalls, when placed in front of embedded systems, monitor inbound traffic for signs of malicious activity
     - Embedded device security controls are effective for mainframes as well
+
+# Embedded Systems
+- Printers and multifunction devices contain embedded systems.
+- Cameras also use embedded systems for image processing and network connectivity
+- Transportation sytems and semi-autononmus vechiles have embedded control systems for GPS, networking, fuel mixture or even an aircraft with large computer systems to aid with flying the aircraft
+- A system on a chip (SoC) combines processing, memory, netowrking, and other embedded system components on a single chip
+  - Examples include Raspberry PI and Arduinos
+- FPGA or Field-Programmable gate arrays are computer chips that allow the end user to reprogram the hardware
+
+# Communication for embedded devices
+- Wifi
+- 4G 5G Wireless Technology
+- Zigbee and Zwave
+- Satellite
