@@ -40,3 +40,14 @@
 
 # Cryptographic Math
 - Cryptographic algorithms use the Exclusive Or operation to combine plain text and cipher text with cryptographic keys. The Exclusive Or operation, which is often abbreviated X-O-R or XOR, is a logical operation that is true when one, and only one, of the inputs is true. Let's take a look at the truth table for the XOR operation. Here we have two variables, X and Y, and then the Exclusive Or of those two variables, which is represented by the symbol that you see here on the screen, a plus with a circle around it. If we have two inputs, X and Y, and they're both false, then neither one of those is true and X exclusive or Y is false. If X is true and Y is false, then exactly one of the inputs is true and X exclusive or Y is true. The same thing happens if X is false and Y is true. But if both X and Y are true, the Exclusive Or operation is false because it allows only one of the inputs to be true.
+
+# Crypographic Lifecycle
+- The cryptographic lifecycle manages the use of encryption materials over time
+  - As cryptographic algrorithms age, they ofen become insecure
+  - Researchers discover a flaw or becomes vulnerable to brute force attack 
+- 5 stages of the cyrptograhic lifecycle
+    - 1. Initiation
+    - 2. Development and Acquisition
+    - 3. Implementation and Assessment
+    - 4. Operations and Maintenance
+    - 5. Sunset
