@@ -12,6 +12,9 @@
 - [Join Me Over At Tryhackme](https://www.tryhackme.com)
 - [Join Me Over On Discord](https://discord.com/channels/@me)
 
+<script src="https://tryhackme.com/badge/125596"></script>
+
+
 <!---
 Hunterfosho/Hunterfosho is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
